@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+	<title>首页</title>
+	<style>
+
+	</style>
+</head>
+<body>
+	<header id="header" class="container">
+		<nav class="navbar navbar-fixed-top home-nav row" role="navigation"> 
+			<ul class="nav navbar-nav  navbar-right">
+				<li class="active"><a href="home.html">Home</a></li>
+				<li><a href="all-body.html">allBody</a></li>
+				<li><a href="activity.html">Activity</a></li>
+				<li><a href="contact-us.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="text-show"></div>
+		<button id="header-button">speeding to</button>
+		<canvas id="mycanvas" height="400px">
+			The browser does not support canvas
+		</canvas>
+		<canvas id="mycanvas1" height="400px">
+			The browser does not support canvas
+		</canvas>
+		<div class="customer">
+			<span>Any questions? Click on the icon</span>
+			<span class="fa fa-user-circle-o"></span>
+		</div>
+	</header>
+	<div class="container">
+		<!-- 新品块 -->
+		<section class="row new">
+			<h2 class="new-h2 text-center">New Product</h2>
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="new-div center-block">
+					<ul class="new-ul">
+						<li class="new-li"><img src="images/new-img3.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img4.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img5.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img6.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img7.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img8.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img9.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img10.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img11.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img12.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img13.jpg" alt="sorry"></li>
+						<li class="new-li"><img src="images/new-img14.jpg" alt="sorry"></li>
+					</ul>						
+				</div>
+			</div>
+		</section>	
+		<!-- 排行榜块 -->
+		<section class="ranking">
+			<h2 class="ranking-h2 text-center">Ranking List TOP12</h2>
+			<div class="row">
+				<div class="col-lg-12 ranking-menu">
+					<span class="span menu-collect">Collection</span>	
+					<span class="span menu-sales">Sales</span>	
+					<div class="dropdown pull-right time">
+						<span class="span dropdown-toggle text-center menu-span" data-toggle="dropdown">
+							<b>Time</b> <span class="caret"></span>
+						</span>
+						<ul class="dropdown-menu">
+							<li>Time</li>
+							<li>Week</li>
+							<li>Month</li>
+							<li>Year</li>
+						</ul>
+					</div>
+				</div>						
+			</div>
+			<div class="row">
+				<div class="col-lg-12 center-block sanking-top12">
+					<!-- 排行榜前六 -->
+					<ul class="before6 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<li><img src="images/clothes7.jpg" alt="sorry"></li>
+						<li><img src="images/clothes6.jpg" alt="sorry"></li>
+						<li><img src="images/clothes5.jpg" alt="sorry"></li>
+						<li><img src="images/clothes8.jpg" alt="sorry"></li>
+						<li><img src="images/clothes15.jpg" alt="sorry"></li>
+						<li><img src="images/clothes13.jpg" alt="sorry"></li>
+					</ul>				
+					<!-- 中间大图 -->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="big-img">
+							<img class="big-show" src="images/clothes7.jpg" alt="sorry">
+							<div>
+								<span class="howMay">1</span>
+								<p>new south Korean sweater in autumn</p>
+								<span class="price">￥138</span><span class="collection">Collection：<b>100</b></span>
+							</div>							
+						</div>					
+						<div class="sanking-slide">
+							<ul class="sanking-slide-ul">
+								<li><img src="images/clothes7.jpg" alt="sorry"></li>
+								<li><img src="images/clothes6.jpg" alt="sorry"></li>
+								<li><img src="images/clothes5.jpg" alt="sorry"></li>
+								<li><img src="images/clothes8.jpg" alt="sorry"></li>
+								<li><img src="images/clothes15.jpg" alt="sorry"></li>
+								<li><img src="images/clothes13.jpg" alt="sorry"></li>
+								<li><img src="images/clothes21.jpg" alt="sorry"><</li>
+								<li><img src="images/clothes9.jpg" alt="sorry"></li>
+								<li><img src="images/clothes12.jpg" alt="sorry"></li>
+								<li><img src="images/clothes14.jpg" alt="sorry"></li>
+								<li><img src="images/clothes18.jpg" alt="sorry"></li>
+								<li><img src="images/clothes10.jpg" alt="sorry"></li>
+							</ul>
+						</div>							
+					</div>
+					<!-- 排行榜后六 -->
+					<ul class="after6 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<li><img src="images/clothes21.jpg" alt="sorry"></li>
+						<li><img src="images/clothes9.jpg" alt="sorry"></li>
+						<li><img src="images/clothes12.jpg" alt="sorry"></li>
+						<li><img src="images/clothes14.jpg" alt="sorry"></li>
+						<li><img src="images/clothes18.jpg" alt="sorry"></li>
+						<li><img src="images/clothes10.jpg" alt="sorry"></li>
+					</ul>			
+				</div>
+
+				<div class="col-lg-12 center-block sales-sanking-top12">
+					<!-- 排行榜前六 -->
+					<ul class="before6 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<li><img src="images/clothes21.jpg" alt="sorry"></li>
+						<li><img src="images/clothes9.jpg" alt="sorry"></li>
+						<li><img src="images/clothes12.jpg" alt="sorry"></li>
+						<li><img src="images/clothes14.jpg" alt="sorry"></li>
+						<li><img src="images/clothes18.jpg" alt="sorry"></li>
+						<li><img src="images/clothes10.jpg" alt="sorry"></li>
+
+					</ul>				
+					<!-- 中间大图 -->
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="big-img">
+							<img class="big-show" src="images/clothes21.jpg" alt="sorry">
+							<div>
+								<span class="howMay">1</span>
+								<p>new south Korean sweater in autumn</p>
+								<span class="price">￥138</span><span class="collection">Sales：<b>100</b></span>
+							</div>							
+						</div>					
+						<div class="sanking-slide">
+							<ul class="sanking-slide-ul">
+								<li><img src="images/clothes7.jpg" alt="sorry"></li>
+								<li><img src="images/clothes6.jpg" alt="sorry"></li>
+								<li><img src="images/clothes5.jpg" alt="sorry"></li>
+								<li><img src="images/clothes8.jpg" alt="sorry"></li>
+								<li><img src="images/clothes15.jpg" alt="sorry"></li>
+								<li><img src="images/clothes13.jpg" alt="sorry"></li>
+								<li><img src="images/clothes21.jpg" alt="sorry"><</li>
+								<li><img src="images/clothes9.jpg" alt="sorry"></li>
+								<li><img src="images/clothes12.jpg" alt="sorry"></li>
+								<li><img src="images/clothes14.jpg" alt="sorry"></li>
+								<li><img src="images/clothes18.jpg" alt="sorry"></li>
+								<li><img src="images/clothes10.jpg" alt="sorry"></li>
+							</ul>
+						</div>							
+					</div>
+					<!-- 排行榜后六 -->
+					<ul class="after6 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<li><img src="images/clothes7.jpg" alt="sorry"></li>
+						<li><img src="images/clothes6.jpg" alt="sorry"></li>
+						<li><img src="images/clothes5.jpg" alt="sorry"></li>
+						<li><img src="images/clothes8.jpg" alt="sorry"></li>
+						<li><img src="images/clothes15.jpg" alt="sorry"></li>
+						<li><img src="images/clothes13.jpg" alt="sorry"></li>
+					</ul>			
+				</div>
+
+			</div>
+		</section>
+		<!-- 服务模块 -->
+		<section class="service">
+			<h2 class="text-center">Quality Service</h2>
+			<div class="service-model row">
+				<div class="satisfaction col-lg-4 col-md-4 col-sm-4 text-center">
+					<span class="fa fa-commenting-o"></span>
+					<h3>Satisfaction:99%</h3>
+					<p>The buyer's satisfaction was as high as 99 percent</p>
+				</div>
+				<div class="partner col-lg-4 col-md-4 col-sm-4 text-center">
+					<span class="fa fa-handshake-o"></span>
+					<h3>Partner:10+</h3>
+					<p>More than 10 partners in guangdong provinces</p>
+				</div>
+				<div class="quality col-lg-4 col-md-4 col-sm-4 text-center">
+					<span class="fa fa-thumbs-up"></span>
+					<h3>Quality:good</h3>
+					<p>The quality of the clothes is very good</p>					
+				</div>
+			</div>
+		</section>
+
+		
+		<section class="buy-show">
+			<h2 class="text-center">Buyers show</h2>
+			<div class="row">
+				<ul class="col-lg-4 col-md-4 col-sm-4">
+					<li class="item1">
+						<div>
+							<span class="fa fa-search"></span>
+							<p></p>
+						</div>
+						<img src="images/buy1.jpg" alt="sorry">
+					</li>
+					<li class="item2">
+						<div>
+							<span class="fa fa-search"></span>
+						</div>
+						<img src="images/buy2.jpg" alt="sorry">
+					</li>
+				</ul>
+				<ul class="col-lg-4 col-md-4 col-sm-4">
+					<li class="item3">
+						<div>
+							<span class="fa fa-search"></span>
+						</div>
+						<img src="images/buy3.jpg" alt="sorry">
+					</li>
+					<li class="item4">
+						<div>
+							<span class="fa fa-search"></span>
+						</div>
+						<img src="images/buy4.jpg" alt="sorry">
+					</li>
+				</ul>
+				<ul class="col-lg-4 col-md-4 col-sm-4">
+					<li class="item5">
+						<div>
+							<span class="fa fa-search"></span>
+						</div>
+						<img src="images/buy5.jpg" alt="sorry">
+					</li>
+					<li class="item6">
+						<div>
+							<span class="fa fa-search"></span>
+						</div>
+						<img src="images/buy6.jpg" alt="sorry">
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- 买家秀浏览图 -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		        	<div class="modal-header">
+		        		<h2 class="text-center">Buy Show</h2>
+		        	</div>
+		            <div class="modal-body"><img class="modal-img" src="images/detail1.jpg" alt="sorry"></div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<!-- 客服对话框 -->
+		<div class="modal fade" id="costomer-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		        	<div class="modal-header text-center">
+		        		<h2 class="text-center"><span class="fa fa-user-plus"></span>&nbsp;xiaoqin
+		        		</h2>
+		        	</div>
+		            <div class="modal-body">
+		            	<ul class="modal-left pull-left">
+		            		<li class="modal-top">
+		            			<textarea name=""></textarea>
+		            		</li>
+		            		<li class="modal-bottom">
+		            			<textarea name=""></textarea>
+		            		</li>
+		            		<li>
+		            			<button class="btn button-send">send</button>
+		            		</li>
+		            	</ul>
+		            	<ul class="modal-right pull-right center-block">
+		            		<li>
+		            			<img src="images/designer1.jpeg" alt="sorry">
+		            		</li>
+		            		<li>
+		            			<p>Nickname&nbsp;:xiaoqin</p>
+		            			<p>Time&nbsp;:09:00-18:00</p>
+		            			<p>Position&nbsp;:customer service</p>
+		            		</li>
+		            		<li>
+		            			<button class="button">Video Call</button>
+		            			<button class="button">Voice Call</button>
+		            			<button class="button-close" data-dismiss="modal">Exit</button>
+		            		</li>
+		            	</ul>
+		            </div>
+		            <div class="modal-footer">
+		                
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<!-- 新品浏览图 -->
+		<div class="modal fade" id="new-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		        	<div class="modal-header">
+		        		<h2 class="text-center">New Product</h2>
+		        	</div>
+		            <div class="modal-body">
+		            	<img class="modal-img" src="images/detail1.jpg" alt="sorry">
+						<div class="new-modal-details">
+							<p>price&nbsp;:&nbsp;￥128</p>
+							<p>release time&nbsp;:&nbsp;<time datetime="2018-01-12">January 12th, 2018</time></p>
+							<p>introduce&nbsp;:&nbsp;This dress feels very good, the wool is used for good wool, the style is also very new.</p>
+						</div>
+		            </div>
+		            <div class="modal-footer">
+						<button type="button" class="buy btn btn-warning" title="Sorry"
+            			data-container="body" data-toggle="popover" data-placement="top"
+            			data-content="You haven't logged in yet">Add to cart</button>
+		                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- 排行榜浏览图 -->
+		<div class="modal fade" id="top12-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		        	<div class="modal-header">
+		        	</div>
+		            <div class="modal-body">
+		            	<img class="modal-img" src="images/detail1.jpg" alt="sorry">
+						<ul class="top12-modal-ul">
+							<li><img src="images/detail1.jpg" alt="sorry"></li>
+							<li><img src="images/detail1.jpg" alt="sorry"></li>
+							<li><img src="images/detail1.jpg" alt="sorry"></li>
+							<li><img src="images/detail1.jpg" alt="sorry"></li>
+							<li><img src="images/detail1.jpg" alt="sorry"></li>
+						</ul>
+						<div class="top12-modal-details">
+							<p>price&nbsp;:&nbsp;￥128</p>
+							<p>name&nbsp;:&nbsp;new south Korean sweater in autumn</p>
+							<p>Style&nbsp;:&nbsp;commuting</p>
+							<p>Commuting&nbsp;:&nbsp;Korean edition</p>
+						</div>
+		            </div>
+		            <div class="modal-footer">
+						<button type="button" class="buy btn btn-warning" title="Sorry"
+            			data-container="body" data-toggle="popover" data-placement="top"
+            			data-content="You haven't logged in yet">Add to cart</button>
+		                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="partner-list col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-center">Partners</h3>
+					<ul>
+						<li>
+							<img src="images/buy1.jpg" alt="sorry">
+							<div><span>one</span></div>
+						</li>
+						<li>
+							<img src="images/buy2.jpg" alt="sorry">
+							<div><span>two</span></div>
+						</li>
+						<li>
+							<img src="images/buy3.jpg" alt="sorry">
+							<div><span>three</span></div>
+						</li>
+						<li>
+							<img src="images/buy4.jpg" alt="sorry">
+							<div><span>four</span></div>
+						</li>
+						<li>
+							<img src="images/buy5.jpg" alt="sorry">
+							<div><span>five</span></div>
+						</li>
+						<li>
+							<img src="images/buy6.jpg" alt="sorry">
+							<div><span>six</span></div>
+						</li>
+					</ul>
+				
+				</div>
+				<div class="address-phone col-lg-4 col-md-4 col-sm-4 ">
+					<h3 class="text-center">Sweater shop</h3>
+					<ul class="text-center">
+						<li><span class="fa fa-map-marker"></span>Shantou city</li>
+						<li><span class="fa fa-phone-square"></span>13417150-xxx</li>
+						<li><span class="fa fa-envelope"></span>10737@qq.com</li>
+					</ul>
+				</div>
+				<div class="qr-code col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-center">Qr Code</h3>
+					<ul>
+						<li>
+							<img src="images/qrcode1.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+						<li>
+							<img src="images/qrcode1.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+						<li>
+							<img src="images/qrcode2.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+					</ul>
+				</div>			
+			</div>
+			<div class="row footer-text text-center">
+				<h4><span class="fa fa-home"></span>&nbsp;Sweater shop</h4>
+				<h4>[URL:www.zhizimaoyi.com]</h4>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/home.js"></script>
+	<script>
+
+	</script>
+</body>
+</html>

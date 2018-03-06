@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/activity.css">
+	<title>限时活动</title>
+</head>
+<body>
+	<header id="header" class="container">
+		<nav class="navbar navbar-fixed-top activity-nav row" role="navigation"> 
+			<ul class="nav navbar-nav  navbar-right">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="all-body.html">allBody</a></li>
+				<li><a href="activity.html">Activity</a></li>
+				<li class="active"><a href="contact-us.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header-div">
+			<h3>It's the end of the discount</h3>
+			<span class="fa fa-clock-o"></span>
+			<span class="timespan"></span>
+
+		</div>
+	</header>
+
+	
+	<div class="container">
+		<!-- 显示抢购模块 -->
+		<section class="row to-snap-up">
+			<h2 class="text-center">To Snap Up</h2>
+			<ul>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4 ">
+					<img src="images/clothes21.jpg" alt="to snap up">
+					<div class="angle">discount</div>
+					<h4><a href="###">Korean fashion women's wear</a></h4>
+					<span>￥128<s>￥188</s></span><button class="btn btn-danger pull-right" type="button">to snap up</button>
+				</li>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4">
+					<img src="images/clothes20.jpg" alt="to snap up">
+					<div class="angle">discount</div>
+					<h4><a href="###">Korean fashion women's wear</a></h4>
+					<span>￥118<s>￥188</s></span><button class="btn btn-danger pull-right" type="button">to snap up</button>
+				</li>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4">
+					<img src="images/clothes19.jpg" alt="to snap up">
+					<div class="angle">discount</div>
+					<h4><a href="###">Korean fashion women's wear</a></h4>
+					<span>￥98<s>￥188</s></span><button class="btn btn-danger pull-right" type="button">to snap up</button>
+				</li>
+			</ul>
+		</section>
+		<!-- 设计作品 -->
+		<section class="row hot-design">
+			<h2 class="text-center">Hot Design</h2>
+			<ul class="">
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4 ">
+					<img src="images/clothes21.jpg" alt="to snap up">
+					<div class="designer-angle">recommend</div>
+					<h4><a href="###">Korean fashion women's wear</a></h4>
+					<span>￥128</span><button class="btn btn-success pull-right" type="button">Add to cart</button>
+				</li>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4">
+					<img src="images/clothes20.jpg" alt="to snap up">
+					<div class="designer-angle">recommend</div>
+					<h4><a href="###">Korean fashion women's wear</a></h4>
+					<span>￥118</span><button class="btn btn-success pull-right" type="button">Add to cart</button>
+				</li>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4">
+					<img src="images/clothes19.jpg" alt="to snap up">
+					<div class="designer-angle">recommend</div>
+					<h4><a href="###">Korean fashion women's wear</a></h4>
+					<span>￥98</span><button class="btn btn-success pull-right" type="button">Add to cart</button>
+				</li>
+			</ul>			
+		</section>
+
+		<!-- 优秀设计师 -->
+		<section class="row designer">
+			<h2 class="text-center">Excellent Designer</h2>
+			<ul>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4 ">
+					<div class="designer-mask">
+						<button>Contact Him</button>
+					</div>
+					<img src="images/designer2.jpeg" alt="designer">
+					<h4>johe</h4>
+					<p>It's a very good design.The division has won many awards and received many compliments.</p>
+				</li>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4 ">
+					<div class="designer-mask">
+						<button>Contact Him</button>
+					</div>
+					<img src="images/designer3.jpeg" alt="designer">
+					<h4>Mike</h4>
+					<p>It's a very good design.The division has won many awards and received many compliments.</p>
+				</li>
+				<li class="clearfix col-lg-4 col-md-4 col-sm-4 ">
+					<div class="designer-mask">
+						<button>Contact Him</button>
+					</div>
+					<img src="images/designer4.jpeg" alt="designer">
+					<h4>Hell</h4>
+					<p>It's a very good design.The division has won many awards and received many compliments.</p>
+				</li>
+			</ul>
+			<div class="custom-clothes">
+				<p class="text-center">Do you want to get the clothes that the designer has designed for you?</p>
+				<p class="text-center">Click the button below.</p>
+				<span class="text-center fa fa-angle-double-down"></span>
+				<button class="btn btn-success center-block" type="button">Custom Clothes</button>
+			</div>
+
+
+		</section>
+	</div>
+
+	<!-- 模态框图片预览 -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-body">
+	            	<img class="modal-img" src="images/detail1.jpg" alt="sorry">
+					<div class="activity-modal">
+						<h4>The Distance Shopping Is Over</h4>
+						<div class="timespan"></div>
+					</div>
+	            </div>
+	            <div class="modal-footer">
+	            	<button type="button" class="btn btn-warning">Add to cart</button>
+	                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="partner-list col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-center">Partners</h3>
+					<ul>
+						<li>
+							<img src="images/buy1.jpg" alt="sorry">
+							<div><span>one</span></div>
+						</li>
+						<li>
+							<img src="images/buy2.jpg" alt="sorry">
+							<div><span>two</span></div>
+						</li>
+						<li>
+							<img src="images/buy3.jpg" alt="sorry">
+							<div><span>three</span></div>
+						</li>
+						<li>
+							<img src="images/buy4.jpg" alt="sorry">
+							<div><span>four</span></div>
+						</li>
+						<li>
+							<img src="images/buy5.jpg" alt="sorry">
+							<div><span>five</span></div>
+						</li>
+						<li>
+							<img src="images/buy6.jpg" alt="sorry">
+							<div><span>six</span></div>
+						</li>
+					</ul>
+				
+				</div>
+				<div class="address-phone col-lg-4 col-md-4 col-sm-4 ">
+					<h3 class="text-center">Sweater shop</h3>
+					<ul class="text-center">
+						<li><span class="fa fa-map-marker"></span>Shantou city</li>
+						<li><span class="fa fa-phone-square"></span>13417150-xxx</li>
+						<li><span class="fa fa-envelope"></span>10737@qq.com</li>
+					</ul>
+				</div>
+				<div class="qr-code col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-center">Qr Code</h3>
+					<ul>
+						<li>
+							<img src="images/qrcode1.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+						<li>
+							<img src="images/qrcode1.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+						<li>
+							<img src="images/qrcode2.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+					</ul>
+				</div>			
+			</div>
+			<div class="row footer-text text-center">
+				<h4><span class="fa fa-home"></span>&nbsp;Sweater shop</h4>
+				<h4>[URL:www.zhizimaoyi.com]</h4>
+
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/activity.js"></script>
+</body>
+</html>

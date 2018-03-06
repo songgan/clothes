@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/clothes-details.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+	<title>衣服详情</title>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<header id="header" class="container">
+		<nav class="navbar navbar-fixed-top clothes-details-nav row" role="navigation"> 
+			<ul class="nav navbar-nav  navbar-right">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="all-body.html">allBody</a></li>
+				<li><a href="activity.html">Activity</a></li>
+				<li class="active"><a href="contact-us.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="header-content">
+			<div class="text">
+				<div class="text-content">
+					<ul>
+						<li>Learn more about the dress</li>
+						<li>Keep your hands up</li>
+						<li>This is a very fashionable dress</li>
+					</ul>
+				</div>				
+			</div>
+			<div class="audios">
+				<span>Want to hear music ? Click on the icon</span>
+				<span id="img-png" class="fa fa-pause-circle-o"></span>
+				<div>
+					<audio id="audio-play" autoplay="true" autobuffer autoloop loop>
+						<source src="media/chengdu.mp3">
+						Your browser does not support it
+					</audio>					
+				</div>
+			</div>
+			
+		</div>
+	</header>
+	<div class="container">
+		<!-- 衣服图片列表展示 -->
+		<div class="row simple-show">
+			<!-- 图片 -->
+			<div class="img-list col-lg-5 col-md-6 col-sm-8">
+				<div class="small">
+					<img class="list-big-img" src="images/detail1.jpg" alt="sorry"><b></b>
+				</div>
+				<ul>
+					<li><img src="images/detail1.jpg" alt="sorry"></li>
+					<li><img src="images/detail2.jpg" alt="sorry"></li>
+					<li><img src="images/detail3.jpg" alt="sorry"></li>
+					<li><img src="images/detail4.jpg" alt="sorry"></li>
+					<li><img src="images/detail5.jpg" alt="sorry"></li>
+				</ul>
+			</div>
+
+
+
+			<!-- 文字 -->
+			<div class="simple-information col-lg-7 col-md-6 col-sm-4">
+				<div class="big">
+					<img src="images/detail1.jpg" alt="sorry">
+				</div>
+				<div class="text-show">
+					<h2>Autumn and winter 2017 new south Korean knitwear</h2>
+					<div class="one item">
+						<span>Price:<mark>￥128</mark></span>
+					</div>
+					<div class="two item">
+						<h3>Size:</h3>
+						<span data-toggle="tooltip" title="Less than 120 catties">S</span>
+						<span data-toggle="tooltip" title="Less than 140 catties">M</span>
+						<span data-toggle="tooltip" title="Less than 160 catties">L</span>
+					</div>
+					<div class="three item">
+						<h3>Color:</h3>
+						<span><img src="images/detail1.jpg" alt="sorry"></span>
+					</div>
+					<div class="four item">
+						<div class="input-group">
+				            <span class="input-group-addon reduce">-</span>
+				            <input type="number" class="form-control" min="1" value="1" disabled="true">
+				            <span class="input-group-addon add">+</span>
+				        </div>	
+					</div>
+					<div class="five item">
+						<button type="button" class="btn">Buy now</button>
+						<button type="button" class="btn">Add to cart</button>
+					</div>
+					<div class="six item text-success text-justify"> 
+						<span>commitment:</span><br>
+						<span>&nbsp;&nbsp;1、There is no reason to return it for seven days</span><br>
+						<span>&nbsp;&nbsp;2、Transport insurance</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 衣服详情介绍 -->
+		<div class="row detail-show">
+			<div class="details-aside col-lg-3 col-md-3 col-sm-3">
+				<section class="details-search  clearfix">
+					<h3 class="text-center">Search</h3>	
+					<form method="post" action="">
+						<span>The Keyword</span>
+						<input list="datalist" class="input-search" type="search">
+						<datalist id="datalist">
+							<option value="clothes">clothes</option>
+							<option value="new">new</option>
+							<option value="2018">2018</option>
+						</datalist>	
+						<br>
+						<span>price</span><input class="input-text" type="text" placeholder="￥"><input class="input-text" type="text" placeholder="￥">
+						<input class="input-submit" type="submit" value="search">
+					</form>
+				</section>
+
+				<section class="details-recommend clearfix">
+					<h3 class="text-center">Recommend</h3>
+					<ul>
+						<li>
+							<img src="images/clothes11.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes12.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes13.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes14.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes15.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes16.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes17.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+						<li>
+							<img src="images/clothes18.jpg" alt="sorry">
+							<h4><a href="###">Autumn and winter 2017 new south Korean knitwear</a><h4>
+							<span>￥138</span>
+						</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="details-introduce col-lg-9 col-md-9 col-sm-9">		
+				<ul class="nav nav-tabs">
+				    <li class="active"><a data-toggle="tab" href="#clothes-details">Clothes Details</a></li>
+				    <li><a data-toggle="tab" href="#cumulative-comments">Cumulative Comments</a></li>
+				</ul>
+
+				<div class="tab-content">
+				    <div id="clothes-details" class="tab-pane fade in active">
+						<ul class="text-introduce list-inline">
+							<li>
+								<span>Garment version: straight tube</span><br>
+								<span>Style: commuting</span><br>
+								<span>Combination form: single piece</span><br>
+								<span>Collar: others</span><br>
+								<span>Pattern: solid color</span><br>								
+								<span>Ingredients: 31%-50%</span>								
+							</li>
+							<li>
+								<span>Commuting: Korean edition</span><br>
+								<span>Length: medium long</span><br>
+								<span>Sleeve type: routine</span><br>
+								<span>Applicable age: 18-24 years old</span><br>
+								<span>Listing year/season: fall 2017</span><br>
+								<span>Size: S M L</span>
+							</li>
+							<li>
+								<span>Thickness: thickening</span><br>
+								<span>Style: cardigan</span><br>
+								<span>Sleeve length: long sleeve</span><br>
+								<span>Shirt front: single breasted</span><br>
+								<span>Fabric: others</span><br>
+								<span>Color classification: deep lead ashes</span>
+							</li>
+						</ul>
+						<ul class="img-introduce">
+							<li><img src="images/img-introduce/img-introduce1.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce2.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce3.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce4.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce5.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce6.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce8.jpg" alt="sorry"></li>
+							<li><img src="images/img-introduce/img-introduce10.jpg" alt="sorry"></li>
+						</ul>
+				    </div>
+				    <div id="cumulative-comments" class="tab-pane fade">
+						<div class="radio-group">
+							<span><input class="all" type="radio" name="a" value="all" checked>All</span>
+							<span><input class="high-praise" type="radio" name="a" value="high praise">High praise</span>
+							<span><input class="bad-review" type="radio" name="a" value="bad review">Bad review</span>
+						</div>
+						<div class="comment-list">
+							<!-- 所有评论 -->
+							<ul class="comment-ul">
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>The clothes were not as thick as expected, longer than expected, worse than expected, and not coming next time</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="bad">Bad review</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>The clothes were not as thick as expected, longer than expected, worse than expected, and not coming next time</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="bad">Bad review</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+							</ul>
+							<!-- 好评 -->
+							<ul class="good-comment">
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>It's been a long time and I haven't had time to evaluate it. The delivery is fast, the express delivery is very fast, the clothes quality is really good, very thick</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="good">High praise</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+							</ul>
+							<!-- 差评 -->
+							<ul class="bad-comment">
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>The clothes were not as thick as expected, longer than expected, worse than expected, and not coming next time</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="bad">Bad review</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="left pull-left">
+										<img src="images/designer4.jpeg" alt="sorry"><br>
+										<span class="text-center">wangshanshan</span>
+									</div>
+									<div class="right pull-right">
+										<h4>The clothes were not as thick as expected, longer than expected, worse than expected, and not coming next time</h4>
+										<span>Color classification: deep lead grey [extra thick] size: S[suitable for less than 160]</span><br>
+										<time><b class="bad">Bad review</b>October 28, 2017 07:48</time>
+									</div>
+								</li>
+							</ul>
+
+						</div>
+				    </div>
+				</div>
+			</div>
+
+		</div>
+		
+		<!-- 模态框图片预览 -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-body"><img class="modal-img" src="images/detail1.jpg" alt="sorry"></div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="partner-list col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-center">Partners</h3>
+					<ul>
+						<li>
+							<img src="images/buy1.jpg" alt="sorry">
+							<div><span>one</span></div>
+						</li>
+						<li>
+							<img src="images/buy2.jpg" alt="sorry">
+							<div><span>two</span></div>
+						</li>
+						<li>
+							<img src="images/buy3.jpg" alt="sorry">
+							<div><span>three</span></div>
+						</li>
+						<li>
+							<img src="images/buy4.jpg" alt="sorry">
+							<div><span>four</span></div>
+						</li>
+						<li>
+							<img src="images/buy5.jpg" alt="sorry">
+							<div><span>five</span></div>
+						</li>
+						<li>
+							<img src="images/buy6.jpg" alt="sorry">
+							<div><span>six</span></div>
+						</li>
+					</ul>
+				
+				</div>
+				<div class="address-phone col-lg-4 col-md-4 col-sm-4 ">
+					<h3 class="text-center">Sweater shop</h3>
+					<ul class="text-center">
+						<li><span class="fa fa-map-marker"></span>Shantou city</li>
+						<li><span class="fa fa-phone-square"></span>13417150-xxx</li>
+						<li><span class="fa fa-envelope"></span>10737@qq.com</li>
+					</ul>
+				</div>
+				<div class="qr-code col-lg-4 col-md-4 col-sm-4">
+					<h3 class="text-center">Qr Code</h3>
+					<ul>
+						<li>
+							<img src="images/qrcode1.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+						<li>
+							<img src="images/qrcode1.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+						<li>
+							<img src="images/qrcode2.png" alt="sorry">
+							<h4 class="text-center">Sweep the yard</h4>
+						</li>
+					</ul>
+				</div>			
+			</div>
+			<div class="row footer-text text-center">
+				<h4><span class="fa fa-home"></span>&nbsp;Sweater shop</h4>
+				<h4>[URL:www.zhizimaoyi.com]</h4>
+
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/clothes-details.js"></script>
+	<script>
+
+	</script>
+
+</body>
+</html>
